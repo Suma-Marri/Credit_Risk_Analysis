@@ -1,7 +1,7 @@
 # Credit_Risk_Analysis
 
 ## Overview of the analysis
-Explain the purpose of this analysis.
+Banks have traditionally relied on measures, such as income, credit score, and collateral assets to assess lending risks, but the rise of fintech (financial technology) and allowed lenders to use machine learning to analyze risk. We used 6 different machine learning models to predict credit risk. For oversampling the data, we used **RandomOverSampler** and **SMOTE** algorithms. For undersampling the data, we used the **ClusterCentroids** algorithm. We also tried an approch by combining the oversampling and undersampling using the **SMOTEENN** algorithm. Then we used the **BalancedRandomForestClassifier** and **EasyEnsembleClassifier** that reduces bias. We will evaluate the performance of these models and make a recommendation on whether they should be used to predict credit risk.
 
 ## Results
 - **Random Over Sampler**: 64.0% accuracy, 1% precision, 66% recall and 2% F1 Score
